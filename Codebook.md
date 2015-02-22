@@ -25,11 +25,12 @@ Variables in finaldata.csv:
 180 observations (30 subjects * 6 activities)
 68 variables observed
  - #1: subject_id
-	- uniquely identifies the subject
+	- identifies the subject
 	- values: integer from 1 to 30
  - #2: activity
 	- identifies the activity
 	- values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
  - #3- #68
 	- average of measurements from sensors while performing the activity for that user
+	- values: Features are normalized and bounded within [-1,1].
 
